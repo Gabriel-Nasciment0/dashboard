@@ -17,7 +17,7 @@ export default function Task({ task, onChangeStatus, onRemove }) {
             >
                 <option value="todo">A fazer</option>
                 <option value="doing">Em progresso</option>
-                <option value="done">Concluído</option>
+                <option value="done">Concluido</option>
             </select>
             <button onClick={handleRemove}>Remove</button>
         </div>
