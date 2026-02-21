@@ -5,7 +5,8 @@
 
 .columns {
     display: flex;
-    width: 300%;
+    width: 100%;
+    justify-content: center;
     transition: transform 0.3s ease;
 }
 
@@ -37,6 +38,7 @@
 /* desktop */
 @media (min-width: 768px) {
     .columns {
+        width: 100%;
         transform: none !important;
         width: 100%;
     }
